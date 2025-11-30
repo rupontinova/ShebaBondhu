@@ -97,7 +97,29 @@ npm run lint
 ## 🧪 Testing
 
 * Unit Testing with **Jest**
+```bash
+# Create project folder and navigate
+mkdir shebabondhu-demo
+cd shebabondhu-demo
 
+# Initialize npm
+npm init -y
+
+# Install Jest
+npm install --save-dev jest
+
+# Create src folder and example test files
+mkdir src
+echo "function sum(a, b) { return a + b; } module.exports = sum;" > src/sum.js
+echo "const sum = require('./sum'); test('adds 1 + 2 to equal 3', () => { expect(sum(1,2)).toBe(3); });" > src/sum.test.js
+
+# Add test script in package.json
+# "scripts": {
+#     "test": "jest"
+# }
+
+# Run tests
+npm test
 ---
 
 ## 🧱 Contribution Guidelines
