@@ -93,7 +93,32 @@ npm run lint
 ```
 
 ---
+## 📝 JSDoc Usage
 
+* Generate documentation for JavaScript code using *JSDoc*
+
+```bash
+# Install JSDoc globally
+npm install -g jsdoc
+
+# Navigate to project folder
+cd shebabondhu-demo
+
+# Add example JS file
+mkdir src
+echo "/** 
+ * Adds two numbers together.
+ * @param {number} a - First number
+ * @param {number} b - Second number
+ * @returns {number} Sum of a and b
+ */ 
+function sum(a, b) { return a + b; } 
+module.exports = sum;" > src/sum.js
+
+# Generate documentation in 'docs' folder
+jsdoc src -d docs
+
+# Open the docs/index.html in browser to view
 ## 🧪 Testing
 
 * Unit Testing with **Jest**
