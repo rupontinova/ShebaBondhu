@@ -1,0 +1,82 @@
+graph TD
+
+    subgraph Authentication_and_Profile_Creation_Flow
+        A[Start] --> B[Landing Page]
+        B -- "New User?" --> C[Registration Page]
+        C -- "Register as Homeowner" --> D{Provide Valid Details}
+        C -- "Register as Service Provider" --> D
+        D -->|Valid| E[Account Created]
+        D -->|Incorrect/Duplicate Details| C
+        E --> F[Prompt to Complete Profile]
+        E --> G[Login Page]
+        G --> I[Enter Credentials]
+        I -- "Use Email" --> J[Email OTP Verification]
+        J -- "Wrong OTP" --> K[Error Message]
+        K --> J
+        I -- "Use Google" --> L[Homepage]
+        I -- "Invalid Credentials" --> M[Error Message]
+        M --> G
+        I -- "Forgot Password?" --> P[Forgot Password Page]
+        I -- "User selects Remember Me" --> O[Stay Logged In]
+    end
+
+    subgraph Password_Reset_Flow
+        P --> Q[Enter Email/Phone Number]
+        Q --> R[Send Verification Link / OTP]
+        R --> S[Verify OTP Successfully]
+        S --> T[Create New Password]
+        T --> G
+    end
+
+    subgraph Homeowner_Primary_Service_Flow
+        L_HO[Homepage Homeowner] --> V[Search for Service]
+        V -- "Enter Keyword & Location" --> W[Search Results Page]
+        W -- "No Providers Found" --> X[Display No Providers Message]
+        W --> Y[List of Matching Providers]
+        Y --> Z[View Provider Profile]
+        Z --> A1[View Packages & Services]
+        A1 --> B1[Book Service / Package]
+        B1 --> C1[Booking Confirmed]
+        C1 --> D1[Active Service Page]
+        D1 -- "Real-time Chat" --> E1[Real-time Chat with Provider]
+        D1 -- "Live Location Tracking" --> F1[Live Location Tracking]
+        D1 -- "Click SOS" --> G1[Emergency Alert Sent]
+        G1 --> H1[Confirmation to User]
+        D1 --> I1[Service Completed]
+        I1 --> J1[Service History]
+        J1 --> K1[View Completed Service Details]
+        K1 --> L1[Rate & Review Provider]
+    end
+
+    subgraph Service_Provider_Primary_Service_Flow
+        L_SP[Homepage Service Provider] --> M1[Manage Services]
+        M1 -- "Create Packages" --> N1[Packages Visible on Profile]
+        M1 -- "Receive & Accept Bookings" --> O1[Booking Confirmed SP]
+        O1 --> P1[Active Service Page SP]
+        P1 -- "Real-time Chat" --> Q1[Real-time Chat with Homeowner]
+        P1 -- "Start Journey" --> R1[Live Location Shared]
+        P1 -- "Receive SOS" --> S1[Respond to SOS]
+        P1 --> T1[Service Completed SP]
+        T1 --> U1[Service History SP]
+        U1 --> V1[View Completed Job Details]
+        V1 --> W1[Receive Ratings & Reviews]
+    end
+
+    subgraph Profile_Management_Flow
+        X1[View Profile] --> Y1[Upload Profile Picture]
+        X1 -- "Edit" --> Z1[Edit/Update Profile Details]
+        Z1 -- "Save Changes" --> A2[Changes Reflected Immediately]
+        Z1 -- "Invalid Fields" --> B2[Error Message]
+        X1 -- "Delete Account" --> C2[Delete Account]
+        C2 -- "Confirm" --> D2[Account Deactivated]
+        C2 -- "Cancel" --> E2[Account Remains Active]
+    end
+
+    subgraph Notifications_Flow
+        F2[User is logged in] --> G2[Notifications Triggered]
+        G2 -- "Enabled" --> H2[Pop-up / Notification Panel]
+        G2 -- "Disabled" --> I2[No Pop-up]
+        H2 --> J2[View Notifications Panel]
+        I2 --> J2
+        J2 --> K2[Notifications Marked as Read]
+    end
