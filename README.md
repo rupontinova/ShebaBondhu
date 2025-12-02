@@ -673,7 +673,7 @@ This project strictly follows the **Airbnb JavaScript Style Guide**:
 
 ## 📄 License
 
-MIT License (or add later)
+will add later
 
 ---
 
