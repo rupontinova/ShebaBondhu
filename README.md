@@ -33,7 +33,6 @@
   <br/>
   <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose"/>
   <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Google Maps"/>
-  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.io"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint"/>
   <img src="https://img.shields.io/badge/JSDoc-3178C6?style=for-the-badge&logo=javascript&logoColor=white" alt="JSDoc"/>
@@ -41,13 +40,13 @@
 
 ## 📋 Project Management
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/shebabondhu)
-[![Project Wiki](https://img.shields.io/badge/Wiki-Documentation-blue?style=for-the-badge)](https://github.com/yourusername/shebabondhu/wiki)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rupontinova/ShebaBondhu)
+[![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/b/0ImvND4c/shebabondhu)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
 
 ## 🏗️ Project Status
 
 ![Build Status](https://img.shields.io/badge/Build-In%20Development-yellow?style=for-the-badge)
-![Code Quality](https://img.shields.io/badge/Code%20Quality-A-brightgreen?style=for-the-badge)
 ![Documentation](https://img.shields.io/badge/Documentation-Complete-brightgreen?style=for-the-badge)
 
 ## 🌐 Live Demo
@@ -62,7 +61,7 @@ Coming Soon...
   <tr>
     <td align="center" width="20%">
       <h4>Nafisa Anzum Kotha</h4>
-      <img src="https://img.shields.io/badge/Developer-FF6B6B?style=for-the-badge">
+      <img src="https://img.shields.io/badge/Full%20Stack-FF6B6B?style=for-the-badge">
       <br><p><strong>ID:</strong> 2154901047</p>
     </td>
     <td align="center" width="20%">
@@ -77,12 +76,12 @@ Coming Soon...
     </td>
     <td align="center" width="20%">
       <h4>Sadia Alam</h4>
-      <img src="https://img.shields.io/badge/Developer-F38181?style=for-the-badge">
+      <img src="https://img.shields.io/badge/Full%20Stack-F38181?style=for-the-badge">
       <br><p><strong>ID:</strong> 2254901048</p>
     </td>
     <td align="center" width="20%">
       <h4>Muttakin Mahmud</h4>
-      <img src="https://img.shields.io/badge/Developer-AA96DA?style=for-the-badge">
+      <img src="https://img.shields.io/badge/Full%20Stack-AA96DA?style=for-the-badge">
       <br><p><strong>ID:</strong> 2254901120</p>
     </td>
   </tr>
@@ -102,7 +101,7 @@ Comprehensive documentation is available including:
 - **API Documentation**: JSDoc-generated code documentation
 - **UI/UX Designs**: Figma prototypes and mockups
 
-View full documentation in the [`resources/`](./resources/) directory.
+View full documentation in the [`resources/`](https://github.com/rupontinova/ShebaBondhu/tree/main/resources) directory.
 
 ## 💻 Tech Stack
 
@@ -144,10 +143,6 @@ View full documentation in the [`resources/`](./resources/) directory.
   <tr>
     <td><strong>Mongoose</strong></td>
     <td>ODM library for MongoDB with schema validation</td>
-  </tr>
-  <tr>
-    <td><strong>Socket.io</strong></td>
-    <td>Real-time bidirectional communication for chat and notifications</td>
   </tr>
   <tr>
     <th colspan="2">Maps & Location</th>
@@ -646,7 +641,7 @@ npm test
 
 ## 📘 Documentation
 
-Full documentation is available in the **Wiki** including:
+Full documentation is available in the [**resources/**](https://github.com/rupontinova/ShebaBondhu/tree/main/resources) including:
 
 - UI Pages
 - Use Case Diagrams
