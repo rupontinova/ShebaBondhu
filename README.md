@@ -570,14 +570,6 @@ The application uses MongoDB with Mongoose ODM and includes the following schema
 - SOS requests can be accepted by nearby available providers
 - Notifications are sent to relevant users based on booking events
 
-### 📐 Database Schema Diagram
-
-View the complete database schema diagram:
-
-```
-images/Schema Diagram/shebabondhu_schema.png
-```
-
 ---
 
 ## 📝 JSDoc Usage
@@ -695,7 +687,7 @@ Project team contributors listed in GitHub Insights.
   <p><strong>ShebaBondhu</strong> - Your Trusted Home Services Partner</p>
   <p>Built with ❤️ by Team ShebaBondhu</p>
   <p><em>Bangladesh University of Professionals</em></p>
-  <p><em>Information and Communication Engineering</em></p>
+  <p><em>Department of Information and Communication Technology</em></p>
   <p><em>Software Testing & Maintenance (STM) - September 2025</em></p>
 </div>
 
