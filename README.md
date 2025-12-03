@@ -222,22 +222,22 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Price range filtering
   - Availability-based filtering
 
--📄 Completed Services List
-  -Displays all previously completed services
-  -Sorted by most recent date first
-  -For Homeowners:
-  -Service Type
-  -Provider’s Name
-  -Completion Date
-  -Final Cost
-  -For Service Providers:
-  -Service Type
-  -Customer Name
-  -Completion Date
-  -Provider Earnings
-  -Full booking details
-  -Payment receipt / cost breakdown
-  -Rating & review details
+- 📄 Completed Services List
+  - Displays all previously completed services
+  - Sorted by most recent date first
+  - For Homeowners:
+  - Service Type
+  - Provider’s Name
+  - Completion Date
+  - Final Cost
+  - For Service Providers:
+  - Service Type
+  - Customer Name
+  - Completion Date
+  - Provider Earnings
+  - Full booking details
+  - Payment receipt / cost breakdown
+  - Rating & review details
 
 
 
