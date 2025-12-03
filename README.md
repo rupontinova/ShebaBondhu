@@ -267,12 +267,12 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Message history and notifications
   - Read receipts and typing indicators
 
-- 📦 **Package Booking System**
-  - Subscribe to recurring service packages
-  - Monthly/quarterly cleaning, maintenance plans
-  - Automated scheduling and reminders
-  - Better pricing for long-term commitments
-
+- 📦 **Service Package Booking**
+  - Browse and book recurring service packages (monthly/quarterly)
+  - Detailed package info: services, frequency, duration, and pricing
+  - Automated scheduling, reminders, and renewal options
+  - Providers can create, edit, activate, or deactivate packages
+    
 - ⭐ **Rating & Review System**
   - Rate service providers after completion
   - Write detailed reviews with photos
