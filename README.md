@@ -249,16 +249,17 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Access service completion details
 
 - 🚨 **Emergency SOS Feature**
-  - One-tap emergency service request
-  - Priority notifications to nearby providers
-  - Instant alert to family members and emergency contacts
-  - Real-time response tracking
+  - One-tap emergency request across 8 service categories
+  - Automatically assigns the nearest available provider
+  - Instant confirmation with provider details (name, rating, ETA)
+  - Real-time tracking from dispatch to arrival
+
 
 - 📍 **Live Location Tracking**
-  - Real-time provider location on interactive map
-  - Estimated arrival time updates
-  - Turn-by-turn navigation for providers
-  - Trip history and route replay
+  - Real-time GPS tracking of assigned service providers
+  - Live updates for route, distance, and estimated arrival time
+  - Continuous location sharing until service completion
+  - Optimized routing for faster provider arrival
 
 - 💬 **Real-time Communication**
   - In-app chat with service providers
