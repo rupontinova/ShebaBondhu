@@ -211,8 +211,8 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Secure password reset via email
 
 - 🔍 **Service Discovery & Booking**
-  - Browse comprehensive service provider listings
-  - Advanced search by service category and location
+  - Keyword-based advanced search
+  - Real-time filtering
   - Filter by ratings, availability, and pricing
   - View detailed provider profiles with certifications
   - Real-time booking with instant confirmation
@@ -252,6 +252,15 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Write detailed reviews with photos
   - Help community make informed decisions
   - Build provider credibility
+  - 5-star interactive rating
+  - Hover + click selection
+  - Review text input with 500-char limit
+  - Character counter
+  - Photo attachments in reviews
+  - Prevent duplicate reviews
+  - Success confirmation popup/toast
+  - Review editing (optional)
+  - Average rating auto-calculation
 
 - 🔔 **Smart Notifications**
   - Booking confirmations and reminders
