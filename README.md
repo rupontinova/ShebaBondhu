@@ -216,6 +216,11 @@ ShebaBondhu is a revolutionary home services platform that transforms the way ho
   - Filter by ratings, availability, and pricing
   - View detailed provider profiles with certifications
   - Real-time booking with instant confirmation
+  - Location-based search (city, area, live location)
+  - Category-based search (cleaning, plumbing, electrical, etc.)
+  - Rating-based filtering
+  - Price range filtering
+  - Availability-based filtering
 
 - 📊 **Personal Dashboard**
   - Track all bookings and service history
